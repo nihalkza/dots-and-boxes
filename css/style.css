@@ -1,0 +1,96 @@
+body{
+	margin:0;
+	padding:0;
+/*	position: fixed;
+  top: 50%;
+  left: 50%;
+ transform: translate(-50%, -50%) */
+	background: #82E0AA;
+}
+.banner{
+	font-size: 50px;
+	text-align: center;
+}
+#gameArea{
+	width: 90%;
+	margin: auto;
+}
+.dot{
+	height: 10px;
+	width: 10px;
+	background: #FF5733;
+	margin:0;
+	display: inline-block;
+}
+.vLine{
+    height: 5px;
+    width: 50px;
+    position: relative;
+    background: #ffffff54;
+    margin: 0px;
+    display: inline-block;
+    left: 5px;
+    bottom: 2.5px;
+    margin-right: 5px;
+}
+.hLine{
+	height: 50px;
+	position: relative;
+	top: 57.5px;
+	left:7.5px;
+	width: 5px;
+	background: #ffffff54;
+	margin: 5px 0 5px 0;
+	display: inline-block;
+}
+.flagDotMargin{
+    height: 10px;
+    width: 10px;
+    background: #FF5733;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    top: 50px;
+    left: 5px;
+}
+.flagLineMargin{
+    height: 5px;
+    width: 50px;
+    background: #ffffff54;
+    margin: 0px;
+    display: inline-block;
+    position: relative;
+    top: 47.5px;
+    left: 10px;
+    margin-right: 10px;
+}
+
+.l_style{
+    position: absolute;
+    font-size: 50px;
+    text-align: center;
+    left: 20px;
+    bottom: 0px;
+    color: #fffffff2;
+    text-transform: uppercase;
+}
+#turn{
+    text-align: center;
+    text-transform: capitalize;
+    color: #ff5733;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+    color: #ff5733;
+    background: #abeac6;
+    width: 100%;
+    text-align: right;
+}
+
+a{
+    text-decoration: none; 
+    color: #ff5733;
+}
